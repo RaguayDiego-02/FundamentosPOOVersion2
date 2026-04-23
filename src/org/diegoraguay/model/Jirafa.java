@@ -8,10 +8,10 @@ public class Jirafa extends AnimalesSalvajes{
     }
     
     public boolean getcuelloLargo(){
-        return this.cuelloLargo;
+    return this.cuelloLargo;
     }
     
     public void setcuelloLargo(boolean cuelloLargo){
-        this.cuelloLargo = cuelloLargo; 
+    this.cuelloLargo = cuelloLargo; 
     }
 }
