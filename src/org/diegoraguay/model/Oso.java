@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package org.diegoraguay.model;
 
-/**
- *
- * @author USUARIO
- */
-public class Oso {
+public class Oso extends AnimalesSalvajes{
+    private double peso; 
+    
+    public void hibernar(){
+    System.out.println("El oso a hibernado");
+    }
+    
+    public double getpeso(){
+    return this.peso; 
+    }
+    
+    public void setpeso(double peso){
+    this.peso = peso; 
+    }
     
 }
