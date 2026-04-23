@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package org.diegoraguay.model;
 
-/**
- *
- * @author USUARIO
- */
-public class Cocodrilo {
+public class Cocodrilo extends AnimalesSalvajes{
+    private boolean tieneEscamas; 
+    
+    public void nadar(){
+    System.out.println("El cocodrilo a nadado");
+    }
+    
+    public boolean gettieneEscamas(){
+    return this.tieneEscamas; 
+    }
+    
+    public void settieneEscamas(boolean tieneEscamas){
+    this.tieneEscamas = tieneEscamas; 
+    }
     
 }
