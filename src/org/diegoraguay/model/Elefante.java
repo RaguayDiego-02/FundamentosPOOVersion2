@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package org.diegoraguay.model;
 
-/**
- *
- * @author USUARIO
- */
-public class Elefante {
+public class Elefante extends AnimalesSalvajes{
+    private double pesoElefante; 
     
+    public void barrito(){
+    System.out.println("El elefante a hecho barrito");
+    }
+    
+    public double getpesoElefante(){
+    return this.pesoElefante;
+    }
+    
+    public void setpesoElefante(double pesoElefante){
+    this.pesoElefante = pesoElefante; 
+    }
 }

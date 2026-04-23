@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package org.diegoraguay.model;
 
-/**
- *
- * @author USUARIO
- */
-public class Aguila {
+public class Aguila extends AnimalesSalvajes{
+    private boolean tieneGarras; 
     
+    public void volar(){
+        System.out.println("El aguila a volado");
+    }
+    
+    public boolean gettieneGarras(){
+        return this.tieneGarras; 
+    }
+    
+    public void settieneGarras(boolean tieneGarras){
+        this.tieneGarras = tieneGarras; 
+    }
 }

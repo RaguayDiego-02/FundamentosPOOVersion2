@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package org.diegoraguay.model;
 
-/**
- *
- * @author USUARIO
- */
-public class Leon {
+public class Leon extends AnimalesSalvajes{
+    private boolean tieneColmillos; 
     
+    public void aranazo(){
+    System.out.println("El leon ha dado un aranazo");
+    }
+    
+    public boolean getcolmillos(){
+    return this.tieneColmillos; 
+    }
+    
+    public void setcolmillos(boolean tieneColmillos){
+    this.tieneColmillos = tieneColmillos; 
+    }
 }

@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package org.diegoraguay.model;
 
-/**
- *
- * @author USUARIO
- */
-public class Serpiente {
+public class Serpiente extends AnimalesSalvajes{
+    private boolean esVenenosa; 
+    
+    public void morder(){
+    System.out.println("La serpiente a mordido");
+    }
+    
+    public boolean getesVenenosa(){
+    return this.esVenenosa;
+    }
+    
+    public void setesVenenosa(boolean esVenenosa){
+    this.esVenenosa = esVenenosa; 
+    }
     
 }

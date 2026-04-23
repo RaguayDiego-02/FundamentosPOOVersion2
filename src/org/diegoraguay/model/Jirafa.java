@@ -1,13 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package org.diegoraguay.model;
 
-/**
- *
- * @author USUARIO
- */
-public class Jirafa {
+public class Jirafa extends AnimalesSalvajes{
+    private boolean cuelloLargo; 
     
+    public void alcanzarHojas(){
+    System.out.println("La jirafa alcanza las hojas de los arboles");
+    }
+    
+    public boolean getcuelloLargo(){
+        return this.cuelloLargo;
+    }
+    
+    public void setcuelloLargo(boolean cuelloLargo){
+        this.cuelloLargo = cuelloLargo; 
+    }
 }
